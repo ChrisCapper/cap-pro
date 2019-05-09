@@ -1,0 +1,26 @@
+{
+  "name": "cap-pro",
+  "version": "1.0.0",
+  "description": "Protractor test framework boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisCapper/cap-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisCapper/cap-pro/issues"
+  },
+  "homepage": "https://github.com/ChrisCapper/cap-pro#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.7"
+  }
+}
