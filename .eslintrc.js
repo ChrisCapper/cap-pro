@@ -4,8 +4,11 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
-    "globals": {
+    "extends": [
+        "eslint:recommended",
+        "plugin:protractor/recommended"
+    ],
+        "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
